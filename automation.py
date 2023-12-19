@@ -9,7 +9,8 @@ class TestAutomation:
                                         no_reset=True)
 
     def teardown(self):
-        self.driver.quit()
+        self.operation.quit_driver()
 
-    def add_user(self):
-        pass
+    def test_add_user(self):
+        self.operation.inter_address_book()
+        self.operation.add_a_member_manually("test member", "15804404801")
