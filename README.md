@@ -1,2 +1,2 @@
 # EnterpriseWechatAutomation
-Implement automatically add a user into Enterprise Wechat
+Implement automatically adding a user into Enterprise Wechat
